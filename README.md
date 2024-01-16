@@ -3,7 +3,8 @@
 A one stop shop to track all open-access/ source TTS models as they come out. Feel free to make a PR for all those that aren't linked here.
 This is aimed as a resource to increase awareness for these models and to make it easier for researchers, developers, and enthusiasts to stay informed about the latest advancements in the field.
 
-> Only models with open inference code and model weights are considered.
+> [!NOTE]  
+> This repo will only track open source/ access codebase TTS models. More motivation for everyone to open-source! 🤗
 
 | Name          | GitHub                                                                                                                         | Weights                                                                                                  | License                                                                             | Fine-tune                                                                                      | Languages    | Paper                                                         | Demo                                                                |
 |---------------|--------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|--------------|---------------------------------------------------------------|---------------------------------------------------------------------|
