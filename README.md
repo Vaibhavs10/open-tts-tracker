@@ -26,4 +26,4 @@ This is aimed as a resource to increase awareness for these models and to make i
 ## How can you help?
 
 Help make this list more complete. Create demos on the Hugging Face Hub and link them here :)
-Got any questions? Drop me a DM on Twitter [@reach_vb](https://twitter.com/reach_vb).
+Got any questions? Drop me a DM on Twitter [@reach_vb](https://twitter.com/reach_vb).   
