@@ -1,4 +1,4 @@
-# Open TTS Tracker 🗣️
+# 🗣️ Open TTS Tracker
 
 A one stop shop to track all open-access/ source TTS models as they come out. Feel free to make a PR for all those that aren't linked here.
 
@@ -22,3 +22,8 @@ This is aimed as a resource to increase awareness for these models and to make i
 | HierSpeech++  | [Repo](https://github.com/sh-lee-prml/HierSpeechpp)                                                                            | [GDrive](https://drive.google.com/drive/folders/1-L_90BlCkbPyKWWHTUjt5Fsu3kz0du0w)                       | [CC-BY-NC-SA 4.0](https://github.com/sh-lee-prml/HierSpeechpp/blob/main/LICENSE)    | No                                                                                             | KR + EN      | [Paper](https://arxiv.org/abs/2311.12454)                     | [🤗 Space](https://huggingface.co/spaces/LeeSangHoon/HierSpeech_TTS) |
 | Bark          | [Repo](https://github.com/huggingface/transformers/tree/main/src/transformers/models/bark)                                     | [🤗 Hub](https://huggingface.co/suno/bark)                                                                | [MIT](https://github.com/suno-ai/bark/blob/main/LICENSE)                            | No                                                                                             | Multilingual | [Paper](https://arxiv.org/abs/2209.03143)                     | [🤗 Space](https://huggingface.co/spaces/suno/bark)                  |
 | EmotiVoice    | [Repo](https://github.com/netease-youdao/EmotiVoice)                                                                           | [GDrive](https://drive.google.com/drive/folders/1y6Xwj_GG9ulsAonca_unSGbJ4lxbNymM)                       | [Apache 2.0](https://github.com/netease-youdao/EmotiVoice/blob/main/LICENSE)        | [Yes](https://github.com/netease-youdao/EmotiVoice/wiki/Voice-Cloning-with-your-personal-data) | ZH + EN      | Not Available                                                 | Not Available                                                       |
+
+## How can you help?
+
+Help make this list more complete. Create demos on the Hugging Face Hub and link them here :)
+Got any questions? Drop me a DM on Twitter [@reach_vb](https://twitter.com/reach_vb).
