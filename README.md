@@ -6,6 +6,7 @@ This is aimed as a resource to increase awareness for these models and to make i
 
 > [!NOTE]  
 > This repo will only track open source/access codebase TTS models. More motivation for everyone to open-source! 🤗
+
 | Name | GitHub | Weights | License | Fine-tune | Languages | Paper | Demo | Issues |
 |---|---|---|---|---|---|---|---|---|
 | XTTS | [Repo](https://github.com/coqui-ai/TTS) | [🤗 Hub](https://huggingface.co/coqui/XTTS-v2) | [CPML](https://coqui.ai/cpml) | [Yes](https://huggingface.slack.com/archives/C05QZTQJUDD/p1705418518292139) | Multilingual | [Technical notes](https://erogol.substack.com/p/xttsv2-notes) | [🤗 Space](https://huggingface.co/spaces/coqui/xtts) |  |
