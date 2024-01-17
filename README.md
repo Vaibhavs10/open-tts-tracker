@@ -6,7 +6,6 @@ This is aimed as a resource to increase awareness for these models and to make i
 
 > [!NOTE]  
 > This repo will only track open source/access codebase TTS models. More motivation for everyone to open-source! 🤗
-
 | Name | GitHub | Weights | License | Fine-tune | Languages | Paper | Demo | Issues |
 |---|---|---|---|---|---|---|---|---|
 | XTTS | [Repo](https://github.com/coqui-ai/TTS) | [🤗 Hub](https://huggingface.co/coqui/XTTS-v2) | [CPML](https://coqui.ai/cpml) | [Yes](https://huggingface.slack.com/archives/C05QZTQJUDD/p1705418518292139) | Multilingual | [Technical notes](https://erogol.substack.com/p/xttsv2-notes) | [🤗 Space](https://huggingface.co/spaces/coqui/xtts) |  |
@@ -24,6 +23,10 @@ This is aimed as a resource to increase awareness for these models and to make i
 | EmotiVoice | [Repo](https://github.com/netease-youdao/EmotiVoice) | [GDrive](https://drive.google.com/drive/folders/1y6Xwj_GG9ulsAonca_unSGbJ4lxbNymM) | [Apache 2.0](https://github.com/netease-youdao/EmotiVoice/blob/main/LICENSE) | [Yes](https://github.com/netease-youdao/EmotiVoice/wiki/Voice-Cloning-with-your-personal-data) | ZH + EN | Not Available | Not Available | Separate [GUI agreement](https://github.com/netease-youdao/EmotiVoice/blob/main/EmotiVoice_UserAgreement_%E6%98%93%E9%AD%94%E5%A3%B0%E7%94%A8%E6%88%B7%E5%8D%8F%E8%AE%AE.pdf) |
 | Amphion | [Repo](https://github.com/open-mmlab/Amphion) | [🤗 Hub](https://huggingface.co/amphion) | [MIT](https://github.com/open-mmlab/Amphion/blob/main/LICENSE) | No | Multilingual | [Paper](https://arxiv.org/abs/2312.09911) | [🤗 Space](https://huggingface.co/amphion) |  |
 | xVASynth | [Repo](https://github.com/DanRuta/xVA-Synth) | [GH commit](https://github.com/DanRuta/xVA-Synth/tree/master/python/xvapitch/speaker_rep) | [GPL-3.0](https://github.com/DanRuta/xVA-Synth/blob/master/LICENSE.md) | [Yes](https://github.com/DanRuta/xva-trainer) | Multilingual | [Paper](https://arxiv.org/abs/2009.14153) | Not Available | Copyright materials used for training. |
+| OverFlow TTS | [Repo](https://github.com/shivammehta25/OverFlow) | [GitHub](https://github.com/shivammehta25/OverFlow/releases) | [MIT](https://github.com/shivammehta25/OverFlow/blob/main/LICENSE) | [Yes](https://github.com/shivammehta25/OverFlow/tree/main?tab=readme-ov-file#setup-and-training-using-lj-speech) | English | [Paper](https://arxiv.org/abs/2211.06892) | [GH Pages](https://shivammehta25.github.io/OverFlow/) |  |
+| Neural-HMM TTS | [Repo](https://github.com/shivammehta25/Neural-HMM) | [GitHub](https://github.com/shivammehta25/Neural-HMM/releases) | [MIT](https://github.com/shivammehta25/Neural-HMM/blob/main/LICENSE) | [Yes](https://github.com/shivammehta25/Neural-HMM?tab=readme-ov-file#setup-and-training-using-lj-speech) | English | [Paper](https://arxiv.org/abs/2108.13320) | [GH Pages](https://shivammehta25.github.io/Neural-HMM/) |  |
+| Tacotron 2 | [Unofficial Repo](https://github.com/NVIDIA/tacotron2) | [GDrive](https://drive.google.com/file/d/1c5ZTuT7J08wLUoVZ2KkUs_VdZuJ86ZqA/view) | [BSD-3](https://github.com/NVIDIA/tacotron2/blob/master/LICENSE) | [Yes](https://github.com/NVIDIA/tacotron2/tree/master?tab=readme-ov-file#training) | English | [Paper](https://arxiv.org/abs/1712.05884) | [Webpage](https://google.github.io/tacotron/publications/tacotron2/) |  |
+| Glow-TTS | [Repo](https://github.com/jaywalnut310/glow-tts) | [GDrive](https://drive.google.com/file/d/1JiCMBVTG4BMREK8cT3MYck1MgYvwASL0/view) | [MIT](https://github.com/jaywalnut310/glow-tts/blob/master/LICENSE) | [Yes](https://github.com/jaywalnut310/glow-tts?tab=readme-ov-file#2-pre-requisites) | English | [Paper](https://arxiv.org/abs/2005.11129) | [GH Pages](https://jaywalnut310.github.io/glow-tts-demo/index.html) |  |
 
 ## How can you help?
 
