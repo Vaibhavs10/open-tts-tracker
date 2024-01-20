@@ -31,6 +31,43 @@ This is aimed as a resource to increase awareness for these models and to make i
 | Silero | [Repo](https://github.com/snakers4/silero-models) | [GH links](https://github.com/snakers4/silero-models/blob/master/models.yml) | [CC BY-NC-SA](https://github.com/snakers4/silero-models/blob/master/LICENSE) | [No](https://github.com/snakers4/silero-models/discussions/78) | EM + DE + ES + EA | Not Available | Not Available | [Non Commercial](https://github.com/snakers4/silero-models/wiki/Licensing-and-Tiers) |
 | MahaTTS | [Repo](https://github.com/dubverse-ai/MahaTTS) | [🤗 Hub](https://huggingface.co/Dubverse/MahaTTS) | [Apache 2.0](https://github.com/dubverse-ai/MahaTTS/blob/main/LICENSE) | No | English, Hindi, Indian English, Bengali, Tamil, Telugu, Punjabi, Marathi, Gujarati, Assamese | Not Available | [Recordings](https://github.com/dubverse-ai/MahaTTS/blob/main/README.md#sample-outputs), [Colab](https://colab.research.google.com/drive/1qkZz2km-PX75P0f6mUb2y5e-uzub27NW?usp=sharing) | |
 
+<details>
+	<summary><b>Capability specifics</b></summary>
+
+| Name | Processor<br />⚡ | Phonetic alphabet<br />👄 | Insta-clone<br />👥 | Emotional control<br />🎭 | Prompting<br />📖 | Streaming support<br />🌊 | Speech control<br />🎚 | S2S support<br />🦜 |
+|---|---|---|---|---|---|---|---|---|
+| XTTS |  |  |  |  |  |  |  |  |
+| TorToiSe TTS |  |  |  |  |  |  |  |  |
+| VITS/ MMS-TTS |  |  |  |  |  |  |  |  |
+| Pheme |  |  |  |  |  |  |  |  |
+| OpenVoice |  |  |  |  |  |  |  |  |
+| IMS-Toucan |  |  |  |  |  |  |  |  |
+| Matcha-TTS |  |  |  |  |  |  |  |  |
+| pflowTTS |  |  |  |  |  |  |  |  |
+| StyleTTS 2 |  |  |  |  |  |  |  |  |
+| VALL-E |  |  |  |  |  |  |  |  |
+| HierSpeech++ |  |  |  |  |  |  |  |  |
+| Bark |  |  |  |  |  |  |  |  |
+| EmotiVoice |  |  |  |  |  |  |  |  |
+| Amphion |  |  |  |  |  |  |  |  |
+| xVASynth | CPU / CUDA | ARPAbet |  | 4-type 🎭<br />😡😃😭😯<br />per‑phoneme    |  |  | speed / pitch / energy / 🎭<br />🎚<br />per‑phoneme | 🦜 |
+| OverFlow TTS |  |  |  |  |  |  |  |  |
+| Neural-HMM TTS |  |  |  |  |  |  |  |  |
+| Tacotron 2 |  |  |  |  |  |  |  |  |
+| Glow-TTS |  |  |  |  |  |  |  |  |
+| Silero |  |  |  |  |  |  |  |  |
+| MahaTTS |  |  |  |  |  |  |  |  |
+
+* Processor - CPU/CUDA/ROCm (single/multi)
+* Phonetic alphabet - None/IPA/ARPAbet/<other> (Phonetic transcription that allows to control pronunciation of certain words)
+* Insta-clone - Yes/No (Quick voice clone using a few audio samples)
+* Emotional control - Yes/Strict/No (Strict, as in has no ability to go in-between states)
+* Prompting - Yes/No (A side effect of narrator based datasets and a way to affect the emotional state, [ElevenLabs docs](https://elevenlabs.io/docs/speech-synthesis/prompting))
+* Streaming support - Yes/No (If it is possible to playback audio that is still being generated)
+* Speech control - speed/pitch/<other> (Ability to change the pitch, duration, energy and/or emotion of generated speech)
+* Speech-To-Speech support - Yes/No (Streaming support implies real-time S2S)
+</details>
+
 ## How can you help?
 
 Help make this list more complete. Create demos on the Hugging Face Hub and link them here :)
