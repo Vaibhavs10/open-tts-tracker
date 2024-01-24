@@ -58,17 +58,17 @@ This is aimed as a resource to increase awareness for these models and to make i
 | TorToiSe TTS |  |  |  |  |  |  |  |  |
 | VALL-E |  |  |  |  |  |  |  |  |
 | VITS/ MMS-TTS |  |  |  |  |  |  |  |  |
-| XTTS | CPU / CUDA |  |  |  |  |  |  |  |  |
-| xVASynth | CPU / CUDA | ARPAbet | ❌ | 4-type 🎭<br />😡😃😭😯<br />per‑phoneme     | ❌ | speed / pitch / energy / 🎭<br />🎚<br />per‑phoneme  | ❌ | 🦜 |
+| XTTS | CPU / CUDA | ❌ | 👥 | insta-clone switch | ❌ | speed / stability<br />🎚 | 🌊 | 🦜<br />(with RVC) |
+| xVASynth | CPU / CUDA | ARPAbet | ❌ | 4-type 🎭<br />😡😃😭😯<br />per‑phoneme | ❌ | speed / pitch / energy / 🎭<br />🎚<br />per‑phoneme | ❌ | 🦜 |
 
-* Processor - CPU/CUDA/ROCm (single/multi)
-* Phonetic alphabet - None/IPA/ARPAbet/<other> (Phonetic transcription that allows to control pronunciation of certain words)
-* Insta-clone - Yes/No (Quick voice clone using a few audio samples)
+* Processor - CPU/CUDA/ROCm (single/multi used for inference)
+* Phonetic alphabet - None/[IPA](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet)/[ARPAbet](https://en.wikipedia.org/wiki/ARPABET)/<other> (Phonetic transcription that allows to control pronunciation of certain words)
+* Insta-clone - Yes/No (Quick voice clone using a few audio samples, also allows strict emotional control by quickly switching model)
 * Emotional control - Yes/Strict/No (Strict, as in has no ability to go in-between states)
 * Prompting - Yes/No (A side effect of narrator based datasets and a way to affect the emotional state, [ElevenLabs docs](https://elevenlabs.io/docs/speech-synthesis/prompting))
 * Streaming support - Yes/No (If it is possible to playback audio that is still being generated)
 * Speech control - speed/pitch/<other> (Ability to change the pitch, duration, energy and/or emotion of generated speech)
-* Speech-To-Speech support - Yes/No (Streaming support implies real-time S2S)
+* Speech-To-Speech support - Yes/No (Streaming support implies real-time S2S; S2T=>T2S does not count)
 </details>
 
 ## How can you help?
