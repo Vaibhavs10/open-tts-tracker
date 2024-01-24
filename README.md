@@ -58,7 +58,7 @@ This is aimed as a resource to increase awareness for these models and to make i
 | TorToiSe TTS |  |  |  |  |  |  |  |  |
 | VALL-E |  |  |  |  |  |  |  |  |
 | VITS/ MMS-TTS |  |  |  |  |  |  |  |  |
-| XTTS | CPU / CUDA | ❌ | 👥 | insta-clone switch | ❌ | speed / stability<br />🎚 | 🌊 | 🦜<br />(with RVC) |
+| XTTS | CPU / CUDA | ❌ | 👥 | insta-clone switch | ❌ | speed / stability<br />🎚 | 🌊 | ❌ |
 | xVASynth | CPU / CUDA | ARPAbet+ | ❌ | 4-type 🎭<br />😡😃😭😯<br />per‑phoneme | ❌ | speed / pitch / energy / 🎭<br />🎚<br />per‑phoneme | ❌ | 🦜 |
 
 * Processor - CPU/CUDA/ROCm (single/multi used for inference)
