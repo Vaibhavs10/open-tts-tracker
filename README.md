@@ -37,29 +37,29 @@ This is aimed as a resource to increase awareness for these models and to make i
 <details>
 	<summary><b>Capability specifics</b></summary>
 
-| Name | Processor<br />⚡ | Phonetic alphabet<br />👄 | Insta-clone<br />👥 | Emotional control<br />🎭 | Prompting<br />📖 | Streaming support<br />🌊 | Speech control<br />🎚 | S2S support<br />🦜 |
+| Name | Processor<br />⚡ | Phonetic alphabet<br />👄 | Insta-clone<br />👥 | Emotional control<br />🎭 | Prompting<br />📖 | Speech control<br />🎚 | Streaming support<br />🌊 | S2S support<br />🦜 |
 |---|---|---|---|---|---|---|---|---|
-| XTTS |  |  |  |  |  |  |  |  |
-| TorToiSe TTS |  |  |  |  |  |  |  |  |
-| VITS/ MMS-TTS |  |  |  |  |  |  |  |  |
-| Pheme |  |  |  |  |  |  |  |  |
-| OpenVoice |  |  |  |  |  |  |  |  |
-| IMS-Toucan |  |  |  |  |  |  |  |  |
-| Matcha-TTS |  |  |  |  |  |  |  |  |
-| pflowTTS |  |  |  |  |  |  |  |  |
-| StyleTTS 2 |  |  |  |  |  |  |  |  |
-| VALL-E |  |  |  |  |  |  |  |  |
-| HierSpeech++ |  |  |  |  |  |  |  |  |
+| Amphion |  |  |  |  |  |  |  |  |
 | Bark |  |  |  |  |  |  |  |  |
 | EmotiVoice |  |  |  |  |  |  |  |  |
-| Amphion |  |  |  |  |  |  |  |  |
-| xVASynth | CPU / CUDA | ARPAbet |  | 4-type 🎭<br />😡😃😭😯<br />per‑phoneme    |  |  | speed / pitch / energy / 🎭<br />🎚<br />per‑phoneme | 🦜 |
-| OverFlow TTS |  |  |  |  |  |  |  |  |
-| Neural-HMM TTS |  |  |  |  |  |  |  |  |
-| Tacotron 2 |  |  |  |  |  |  |  |  |
 | Glow-TTS |  |  |  |  |  |  |  |  |
-| Silero |  |  |  |  |  |  |  |  |
+| HierSpeech++ |  |  |  |  |  |  |  |  |
+| IMS-Toucan |  |  |  |  |  |  |  |  |
 | MahaTTS |  |  |  |  |  |  |  |  |
+| Matcha-TTS |  |  |  |  |  |  |  |  |
+| Neural-HMM TTS |  |  |  |  |  |  |  |  |
+| OpenVoice |  |  |  |  |  |  |  |  |
+| OverFlow TTS |  |  |  |  |  |  |  |  |
+| pflowTTS |  |  |  |  |  |  |  |  |
+| Pheme |  |  |  |  |  |  |  |  |
+| Silero |  |  |  |  |  |  |  |  |
+| StyleTTS 2 |  |  |  |  |  |  |  |  |
+| Tacotron 2 |  |  |  |  |  |  |  |  |
+| TorToiSe TTS |  |  |  |  |  |  |  |  |
+| VALL-E |  |  |  |  |  |  |  |  |
+| VITS/ MMS-TTS |  |  |  |  |  |  |  |  |
+| XTTS | CPU / CUDA |  |  |  |  |  |  |  |  |
+| xVASynth | CPU / CUDA | ARPAbet | ❌ | 4-type 🎭<br />😡😃😭😯<br />per‑phoneme     | ❌ | speed / pitch / energy / 🎭<br />🎚<br />per‑phoneme  | ❌ | 🦜 |
 
 * Processor - CPU/CUDA/ROCm (single/multi)
 * Phonetic alphabet - None/IPA/ARPAbet/<other> (Phonetic transcription that allows to control pronunciation of certain words)
