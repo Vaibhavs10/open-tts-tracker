@@ -45,6 +45,7 @@ This is aimed as a resource to increase awareness for these models and to make i
 | Bark |  |  |  |  |  |  |  |  |
 | EmotiVoice |  |  |  |  |  |  |  |  |
 | Glow-TTS |  |  |  |  |  |  |  |  |
+| GPT-SoVITS |  |  |  |  |  |  |  |  |
 | HierSpeech++ |  |  |  |  |  |  |  |  |
 | IMS-Toucan |  |  |  |  |  |  |  |  |
 | MahaTTS |  |  |  |  |  |  |  |  |
@@ -53,13 +54,17 @@ This is aimed as a resource to increase awareness for these models and to make i
 | OpenVoice |  |  |  |  |  |  |  |  |
 | OverFlow TTS |  |  |  |  |  |  |  |  |
 | pflowTTS |  |  |  |  |  |  |  |  |
+| Piper |  |  |  |  |  |  |  |  |
 | Pheme |  |  |  |  |  |  |  |  |
+| RAD-TTS |  |  |  |  |  |  |  |  |
 | Silero |  |  |  |  |  |  |  |  |
 | StyleTTS 2 |  |  |  |  |  |  |  |  |
 | Tacotron 2 |  |  |  |  |  |  |  |  |
 | TorToiSe TTS |  |  |  |  |  |  |  |  |
+| TTTS |  |  |  |  |  |  |  |  |
 | VALL-E |  |  |  |  |  |  |  |  |
 | VITS/ MMS-TTS |  |  |  |  |  |  |  |  |
+| WhisperSpeech |  |  |  |  |  |  |  |  |
 | XTTS | CUDA | ❌ | 👥 | insta-clone switch | ❌ | speed / stability<br />🎚 | 🌊 | ❌ |
 | xVASynth | CPU / CUDA | ARPAbet+ | ❌ | 4-type 🎭<br />😡😃😭😯<br />per‑phoneme | ❌ | speed / pitch / energy / 🎭<br />🎚<br />per‑phoneme | ❌ | 🦜 |
 
