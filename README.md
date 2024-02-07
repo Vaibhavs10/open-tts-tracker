@@ -39,34 +39,34 @@ This is aimed as a resource to increase awareness for these models and to make i
 <details>
 	<summary><b>Capability specifics</b></summary>
 
-| Name | Processor<br />⚡ | Phonetic alphabet<br />👄 | Insta-clone<br />👥 | Emotional control<br />🎭 | Prompting<br />📖 | Speech control<br />🎚 | Streaming support<br />🌊 | S2S support<br />🦜 |
+| Name | Processor<br>⚡ | Phonetic alphabet<br>👄 | Insta-clone<br>👥 | Emotional control<br>🎭 | Prompting<br>📖 | Speech control<br>🎚 | Streaming support<br>🌊 | S2S support<br>🦜 |
 |---|---|---|---|---|---|---|---|---|
-| Amphion |  |  |  |  |  |  |  |  |
-| Bark |  |  |  |  |  |  |  |  |
+| Amphion | CUDA |  | 👥 | insta-clone switch | ❌ |  |  |  |
+| Bark | CUDA |  | ❌ | 🎭 tags | ❌ |  |  |  |
 | EmotiVoice |  |  |  |  |  |  |  |  |
 | Glow-TTS |  |  |  |  |  |  |  |  |
 | GPT-SoVITS |  |  |  |  |  |  |  |  |
-| HierSpeech++ |  |  |  |  |  |  |  |  |
-| IMS-Toucan |  |  |  |  |  |  |  |  |
+| HierSpeech++ |  | ❌ | 👥 | insta-clone switch | ❌ | speed / stability<br>🎚 |  | 🦜 |
+| IMS-Toucan | CUDA | ❌ | ❌ | ❌ | ❌ |  |  |  |
 | MahaTTS |  |  |  |  |  |  |  |  |
-| Matcha-TTS |  |  |  |  |  |  |  |  |
+| Matcha-TTS |  | IPA | ❌ | ❌ | ❌ | speed / stability<br>🎚 |  |  |
 | Neural-HMM TTS |  |  |  |  |  |  |  |  |
-| OpenVoice |  |  |  |  |  |  |  |  |
+| OpenVoice | CUDA | ❌ | 👥 | 6-type 🎭<br>😡😃😭😯🤫😊    | ❌ |  |  |  |
 | OverFlow TTS |  |  |  |  |  |  |  |  |
 | pflowTTS |  |  |  |  |  |  |  |  |
 | Piper |  |  |  |  |  |  |  |  |
 | Pheme |  |  |  |  |  |  |  |  |
 | RAD-TTS |  |  |  |  |  |  |  |  |
 | Silero |  |  |  |  |  |  |  |  |
-| StyleTTS 2 |  |  |  |  |  |  |  |  |
+| StyleTTS 2 |  | ❌ | 👥 | insta-clone switch | ❌ |  |  |  |
 | Tacotron 2 |  |  |  |  |  |  |  |  |
 | TorToiSe TTS |  |  |  |  |  |  |  |  |
 | TTTS |  |  |  |  |  |  |  |  |
 | VALL-E |  |  |  |  |  |  |  |  |
-| VITS/ MMS-TTS |  |  |  |  |  |  |  |  |
-| WhisperSpeech |  |  |  |  |  |  |  |  |
-| XTTS | CUDA | ❌ | 👥 | insta-clone switch | ❌ | speed / stability<br />🎚 | 🌊 | ❌ |
-| xVASynth | CPU / CUDA | ARPAbet+ | ❌ | 4-type 🎭<br />😡😃😭😯<br />per‑phoneme | ❌ | speed / pitch / energy / 🎭<br />🎚<br />per‑phoneme | ❌ | 🦜 |
+| VITS/ MMS-TTS | CUDA | ❌ | ❌ | ❌ | ❌ | speed<br>🎚 |  |  |
+| WhisperSpeech | CUDA | ❌ | 👥 | insta-clone switch | ❌ | speed<br>🎚 |  |  |
+| XTTS | CUDA | ❌ | 👥 | insta-clone switch | ❌ | speed / stability<br>🎚 | 🌊 | ❌ |
+| xVASynth | CPU / CUDA | ARPAbet+ | ❌ | 4-type 🎭<br>😡😃😭😯<br>per‑phoneme | ❌ | speed / pitch / energy / 🎭<br>🎚<br>per‑phoneme | ❌ | 🦜 |
 
 * Processor - CPU/CUDA/ROCm (single/multi used for inference; Real-time factor should be below 2.0 to qualify for CPU)
 * Phonetic alphabet - None/[IPA](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet)/[ARPAbet](https://en.wikipedia.org/wiki/ARPABET)<other> (Phonetic transcription that allows to control pronunciation of certain words)
