@@ -39,14 +39,14 @@ This is aimed as a resource to increase awareness for these models and to make i
 <details>
 	<summary><b>Capability specifics</b></summary>
 
-| Name | Processor<br>⚡ | Phonetic alphabet<br>👄 | Insta-clone<br>👥 | Emotional control<br>🎭 | Prompting<br>📖 | Speech control<br>🎚 | Streaming support<br>🌊 | S2S support<br>🦜 |
+| Name | Processor<br>⚡ | Phonetic alphabet<br>🔤 | Insta-clone<br>👥 | Emotional control<br>🎭 | Prompting<br>📖 | Speech control<br>🎚 | Streaming support<br>🌊 | S2S support<br>🦜 |
 |---|---|---|---|---|---|---|---|---|
-| Amphion | CUDA |  | 👥 | insta-clone switch | ❌ |  |  |  |
+| Amphion | CUDA |  | 👥 | 🎭👥 | ❌ |  |  |  |
 | Bark | CUDA |  | ❌ | 🎭 tags | ❌ |  |  |  |
 | EmotiVoice |  |  |  |  |  |  |  |  |
 | Glow-TTS |  |  |  |  |  |  |  |  |
 | GPT-SoVITS |  |  |  |  |  |  |  |  |
-| HierSpeech++ |  | ❌ | 👥 | insta-clone switch | ❌ | speed / stability<br>🎚 |  | 🦜 |
+| HierSpeech++ |  | ❌ | 👥 | 🎭👥 | ❌ | speed / stability<br>🎚 |  | 🦜 |
 | IMS-Toucan | CUDA | ❌ | ❌ | ❌ | ❌ |  |  |  |
 | MahaTTS |  |  |  |  |  |  |  |  |
 | Matcha-TTS |  | IPA | ❌ | ❌ | ❌ | speed / stability<br>🎚 |  |  |
@@ -58,20 +58,20 @@ This is aimed as a resource to increase awareness for these models and to make i
 | Pheme |  |  |  |  |  |  |  |  |
 | RAD-TTS |  |  |  |  |  |  |  |  |
 | Silero |  |  |  |  |  |  |  |  |
-| StyleTTS 2 |  | ❌ | 👥 | insta-clone switch | ❌ |  |  |  |
+| StyleTTS 2 |  | ❌ | 👥 | 🎭👥 | ❌ |  |  |  |
 | Tacotron 2 |  |  |  |  |  |  |  |  |
 | TorToiSe TTS |  |  |  |  |  |  |  |  |
 | TTTS |  |  |  |  |  |  |  |  |
 | VALL-E |  |  |  |  |  |  |  |  |
 | VITS/ MMS-TTS | CUDA | ❌ | ❌ | ❌ | ❌ | speed<br>🎚 |  |  |
-| WhisperSpeech | CUDA | ❌ | 👥 | insta-clone switch | ❌ | speed<br>🎚 |  |  |
-| XTTS | CUDA | ❌ | 👥 | insta-clone switch | ❌ | speed / stability<br>🎚 | 🌊 | ❌ |
+| WhisperSpeech | CUDA | ❌ | 👥 | 🎭👥 | ❌ | speed<br>🎚 |  |  |
+| XTTS | CUDA | ❌ | 👥 | 🎭👥 | ❌ | speed / stability<br>🎚 | 🌊 | ❌ |
 | xVASynth | CPU / CUDA | ARPAbet+ | ❌ | 4-type 🎭<br>😡😃😭😯<br>per‑phoneme | ❌ | speed / pitch / energy / 🎭<br>🎚<br>per‑phoneme | ❌ | 🦜 |
 
 * Processor - CPU/CUDA/ROCm (single/multi used for inference; Real-time factor should be below 2.0 to qualify for CPU)
 * Phonetic alphabet - None/[IPA](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet)/[ARPAbet](https://en.wikipedia.org/wiki/ARPABET)<other> (Phonetic transcription that allows to control pronunciation of certain words)
-* Insta-clone - Yes/No (Quick voice clone using a few audio samples, also allows strict emotional control by quickly switching model)
-* Emotional control - Yes/Strict/No (Strict, as in has no ability to go in-between states)
+* Insta-clone - Yes/No (Zero-shot model for quick voice clone)
+* Emotional control - Yes🎭/Strict (Strict, as in has no ability to go in-between states, insta-clone switch/🎭👥)
 * Prompting - Yes/No (A side effect of narrator based datasets and a way to affect the emotional state, [ElevenLabs docs](https://elevenlabs.io/docs/speech-synthesis/prompting))
 * Streaming support - Yes/No (If it is possible to playback audio that is still being generated)
 * Speech control - speed/pitch/<other> (Ability to change the pitch, duration, energy and/or emotion of generated speech)
