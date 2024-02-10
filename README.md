@@ -74,7 +74,7 @@ This is aimed as a resource to increase awareness for these models and to make i
 * Phonetic alphabet - None/[IPA](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet)/[ARPAbet](https://en.wikipedia.org/wiki/ARPABET)<other> (Phonetic transcription that allows to control pronunciation of certain words)
 * Insta-clone - Yes/No (Zero-shot model for quick voice clone)
 * Emotional control - Yes🎭/Strict (Strict, as in has no ability to go in-between states, insta-clone switch/🎭👥)
-* Prompting - Yes/No (A side effect of narrator based datasets and a way to affect the emotional state, [ElevenLabs docs](https://elevenlabs.io/docs/speech-synthesis/prompting))
+* Prompting - Yes/No (A side effect of narrator based datasets and a way to affect the emotional state, [ElevenLabs docs](https://elevenlabs.io/docs/speech-synthesis/prompting#emotion))
 * Streaming support - Yes/No (If it is possible to playback audio that is still being generated)
 * Speech control - speed/pitch/<other> (Ability to change the pitch, duration, energy and/or emotion of generated speech)
 * Speech-To-Speech support - Yes/No (Streaming support implies real-time S2S; S2T=>T2S does not count)
