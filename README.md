@@ -51,6 +51,7 @@ This is aimed as a resource to increase awareness for these models and to make i
 | IMS-Toucan | CUDA | ❌ | ❌ | ❌ | ❌ |  |  |  |
 | MahaTTS |  |  |  |  |  |  |  |  |
 | Matcha-TTS |  | IPA | ❌ | ❌ | ❌ | speed / stability<br>🎚 |  |  |
+| MetaVoice-1B | CUDA |  | 👥 | 🎭👥 | ❌ | stability / similarity<br>🎚 |  |  |
 | Neural-HMM TTS |  |  |  |  |  |  |  |  |
 | OpenVoice | CUDA | ❌ | 👥 | 6-type 🎭<br>😡😃😭😯🤫😊    | ❌ |  |  |  |
 | OverFlow TTS |  |  |  |  |  |  |  |  |
