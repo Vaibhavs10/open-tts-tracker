@@ -70,7 +70,7 @@ This is aimed as a resource to increase awareness for these models and to make i
 | XTTS | CUDA | ❌ | 👥 | 🎭👥 | ❌ | speed / stability<br>🎚 | 🌊 | ❌ |
 | xVASynth | CPU / CUDA | ARPAbet+ | ❌ | 4-type 🎭<br>😡😃😭😯<br>per‑phoneme | ❌ | speed / pitch / energy / 🎭<br>🎚<br>per‑phoneme | ❌ | 🦜 |
 
-* Processor - CPU/CUDA/ROCm (single/multi used for inference; Real-time factor should be below 2.0 to qualify for CPU)
+* Processor - CPU/CUDA/ROCm (single/multi used for inference; Real-time factor should be below 2.0 to qualify for CPU, though some leeway can be given if it supports audio streaming)
 * Phonetic alphabet - None/[IPA](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet)/[ARPAbet](https://en.wikipedia.org/wiki/ARPABET)<other> (Phonetic transcription that allows to control pronunciation of certain words)
 * Insta-clone - Yes/No (Zero-shot model for quick voice clone)
 * Emotional control - Yes🎭/Strict (Strict, as in has no ability to go in-between states, insta-clone switch/🎭👥)
