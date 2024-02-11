@@ -37,8 +37,10 @@ This is aimed as a resource to increase awareness for these models and to make i
 | XTTS | [Repo](https://github.com/coqui-ai/TTS) | [🤗 Hub](https://huggingface.co/coqui/XTTS-v2) | [CPML](https://coqui.ai/cpml) | [Yes](https://docs.coqui.ai/en/latest/models/xtts.html#training) | Multilingual | [Technical notes](https://erogol.substack.com/p/xttsv2-notes) | [🤗 Space](https://huggingface.co/spaces/coqui/xtts) | Non Commercial |
 | xVASynth | [Repo](https://github.com/DanRuta/xVA-Synth) | [GH commit](https://github.com/DanRuta/xVA-Synth/tree/master/python/xvapitch/speaker_rep) | [GPL-3.0](https://github.com/DanRuta/xVA-Synth/blob/master/LICENSE.md) | [Yes](https://github.com/DanRuta/xva-trainer) | Multilingual | [Paper](https://arxiv.org/abs/2009.14153) | [Steam](https://store.steampowered.com/app/1765720/xVASynth/) | Copyrighted materials used for training. |
 
+### Capability specifics
+
 <details>
-	<summary><b>Capability specifics</b></summary>
+	<summary><b><i>Click on this to toggle table visibility</i></b></summary>
 
 | Name | Processor<br>⚡ | Phonetic alphabet<br>🔤 | Insta-clone<br>👥 | Emotional control<br>🎭 | Prompting<br>📖 | Speech control<br>🎚 | Streaming support<br>🌊 | S2S support<br>🦜 |
 |---|---|---|---|---|---|---|---|---|
