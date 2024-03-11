@@ -38,6 +38,51 @@ This is aimed as a resource to increase awareness for these models and to make i
 | XTTS | [Repo](https://github.com/coqui-ai/TTS) | [🤗 Hub](https://huggingface.co/coqui/XTTS-v2) | [CPML](https://coqui.ai/cpml) | [Yes](https://docs.coqui.ai/en/latest/models/xtts.html#training) | Multilingual | [Technical notes](https://erogol.substack.com/p/xttsv2-notes) | [🤗 Space](https://huggingface.co/spaces/coqui/xtts) | Non Commercial |
 | xVASynth | [Repo](https://github.com/DanRuta/xVA-Synth) | [🤗 Hub](https://huggingface.co/Pendrokar/xvapitch_nvidia) | [GPL-3.0](https://github.com/DanRuta/xVA-Synth/blob/master/LICENSE.md) | [Yes](https://github.com/DanRuta/xva-trainer) | Multilingual | [Paper](https://arxiv.org/abs/2009.14153) | [🤗 Space](https://huggingface.co/spaces/Pendrokar/xVASynth) | Copyrighted materials used for training. |
 
+### Capability specifics
+
+<details>
+	<summary><b><i>Click on this to toggle table visibility</i></b></summary>
+
+| Name | Processor<br>⚡ | Phonetic alphabet<br>🔤 | Insta-clone<br>👥 | Emotional control<br>🎭 | Prompting<br>📖 | Speech control<br>🎚 | Streaming support<br>🌊 | S2S support<br>🦜 |
+|---|---|---|---|---|---|---|---|---|
+| Amphion | CUDA |  | 👥 | 🎭👥 | ❌ |  |  |  |
+| Bark | CUDA |  | ❌ | 🎭 tags | ❌ |  |  |  |
+| EmotiVoice |  |  |  |  |  |  |  |  |
+| Glow-TTS |  |  |  |  |  |  |  |  |
+| GPT-SoVITS |  |  |  |  |  |  |  |  |
+| HierSpeech++ |  | ❌ | 👥 | 🎭👥 | ❌ | speed / stability<br>🎚 |  | 🦜 |
+| IMS-Toucan | CUDA | ❌ | ❌ | ❌ | ❌ |  |  |  |
+| MahaTTS |  |  |  |  |  |  |  |  |
+| Matcha-TTS |  | IPA | ❌ | ❌ | ❌ | speed / stability<br>🎚 |  |  |
+| MetaVoice-1B | CUDA |  | 👥 | 🎭👥 | ❌ | stability / similarity<br>🎚 |  |  |
+| Neural-HMM TTS |  |  |  |  |  |  |  |  |
+| OpenVoice | CUDA | ❌ | 👥 | 6-type 🎭<br>😡😃😭😯🤫😊    | ❌ |  |  |  |
+| OverFlow TTS |  |  |  |  |  |  |  |  |
+| pflowTTS |  |  |  |  |  |  |  |  |
+| Piper |  |  |  |  |  |  |  |  |
+| Pheme | CUDA | ❌ | 👥 | 🎭👥 | ❌ | stability<br>🎚 |  |  |
+| RAD-TTS |  |  |  |  |  |  |  |  |
+| Silero |  |  |  |  |  |  |  |  |
+| StyleTTS 2 |  | ❌ | 👥 | 🎭👥 | ❌ |  |  |  |
+| Tacotron 2 |  |  |  |  |  |  |  |  |
+| TorToiSe TTS |  | ❌ | ❌ | ❌ | 📖 |  | 🌊 |  |
+| TTTS |  |  |  |  |  |  |  |  |
+| VALL-E |  |  |  |  |  |  |  |  |
+| VITS/ MMS-TTS | CUDA | ❌ | ❌ | ❌ | ❌ | speed<br>🎚 |  |  |
+| WhisperSpeech | CUDA | ❌ | 👥 | 🎭👥 | ❌ | speed<br>🎚 |  |  |
+| XTTS | CUDA | ❌ | 👥 | 🎭👥 | ❌ | speed / stability<br>🎚 | 🌊 | ❌ |
+| xVASynth | CPU / CUDA | ARPAbet+ | ❌ | 4-type 🎭<br>😡😃😭😯<br>per‑phoneme | ❌ | speed / pitch / energy / 🎭<br>🎚<br>per‑phoneme | ❌ | 🦜 |
+
+* Processor - CPU/CUDA/ROCm (single/multi used for inference; Real-time factor should be below 2.0 to qualify for CPU, though some leeway can be given if it supports audio streaming)
+* Phonetic alphabet - None/[IPA](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet)/[ARPAbet](https://en.wikipedia.org/wiki/ARPABET)<other> (Phonetic transcription that allows to control pronunciation of certain words during inference)
+* Insta-clone - Yes/No (Zero-shot model for quick voice clone)
+* Emotional control - Yes🎭/Strict (Strict, as in has no ability to go in-between states, insta-clone switch/🎭👥)
+* Prompting - Yes/No (A side effect of narrator based datasets and a way to affect the emotional state, [ElevenLabs docs](https://elevenlabs.io/docs/speech-synthesis/prompting#emotion))
+* Streaming support - Yes/No (If it is possible to playback audio that is still being generated)
+* Speech control - speed/pitch/<other> (Ability to change the pitch, duration, energy and/or emotion of generated speech)
+* Speech-To-Speech support - Yes/No (Streaming support implies real-time S2S; S2T=>T2S does not count)
+</details>
+
 ## How can you help?
 
 Help make this list more complete. Create demos on the Hugging Face Hub and link them here :)
